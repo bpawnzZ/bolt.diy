@@ -29,8 +29,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ghcr.io/${{ toLower(github.repository_owner) }}/bolt-ai:${{ github.sha }} .
+          docker build -t ghcr.io/bpawnzz/bolt-ai:${{ github.sha }} .
       
       - name: Push Docker image
         run: |
-          docker push ghcr.io/${{ toLower(github.repository_owner) }}/bolt-ai:${{ github.sha }}
+          docker push ghcr.io/bpawnzz/bolt-ai:${{ github.sha }}
