@@ -10,7 +10,7 @@ node_modules
 dist
 dist-ssr
 *.local
-
+.env.local
 .vscode/*
 .vscode/launch.json
 !.vscode/extensions.json
@@ -26,7 +26,6 @@ dist-ssr
 /.cache
 /build
 .env
-.env.local
 .dev.vars
 *.vars
 .wrangler
