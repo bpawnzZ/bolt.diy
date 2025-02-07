@@ -25,8 +25,8 @@ dist-ssr
 /.history
 /.cache
 /build
-.env.local
 .env
+.env.local
 .dev.vars
 *.vars
 .wrangler
@@ -41,3 +41,6 @@ site
 # commit file ignore
 app/commit.json
 .aider*
+
+# Docker related
+docker-compose.override.yaml
